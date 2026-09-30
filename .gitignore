@@ -1,0 +1,18 @@
+# SQL*Loader run artifacts
+staging.log
+staging.bad
+staging.dsc
+oracle/staging.*
+
+# scratch scripts used during setup
+oracle/_*.sql
+
+# Power BI temp
+*.pbix.tmp
+~$*
+
+# large flattened export (regenerate from the views)
+exports/v_sales_report.csv
+
+# private prep notes - not for publication
+RESUME_ENTRY.md

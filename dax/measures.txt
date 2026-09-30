@@ -1,0 +1,123 @@
+=====================================================================
+ SUPERSTORE BI — DAX MEASURES
+ Paste each block into Power BI Desktop:  Modeling > New Measure
+ Create them in this order (later ones reference earlier ones).
+=====================================================================
+
+--------------------------------------------------- 1. CORE KPIs
+
+Total Sales = SUM ( fact_sales[sales] )
+
+Total Profit = SUM ( fact_sales[profit] )
+
+Profit Margin % =
+DIVIDE ( [Total Profit], [Total Sales] )
+
+Total Orders = DISTINCTCOUNT ( fact_sales[order_id] )
+
+Units Sold = SUM ( fact_sales[quantity] )
+
+Avg Order Value =
+DIVIDE ( [Total Sales], [Total Orders] )
+
+Customer Count = DISTINCTCOUNT ( dim_customer[customer_key] )
+
+
+--------------------------------------------------- 2. TIME INTELLIGENCE
+-- Requires dim_date marked as a date table on [full_date]
+-- (Table tools > Mark as date table). This is why the ETL builds a
+-- contiguous date dimension with no gaps.
+
+Sales LY =
+CALCULATE ( [Total Sales], SAMEPERIODLASTYEAR ( dim_date[full_date] ) )
+
+Sales YoY % =
+VAR Curr = [Total Sales]
+VAR Prior = [Sales LY]
+RETURN DIVIDE ( Curr - Prior, Prior )
+
+Sales YTD =
+TOTALYTD ( [Total Sales], dim_date[full_date] )
+
+Profit YTD =
+TOTALYTD ( [Total Profit], dim_date[full_date] )
+
+Sales Rolling 3M =
+CALCULATE (
+    [Total Sales],
+    DATESINPERIOD ( dim_date[full_date], MAX ( dim_date[full_date] ), -3, MONTH )
+)
+
+Sales MoM % =
+VAR Prior =
+    CALCULATE ( [Total Sales], DATEADD ( dim_date[full_date], -1, MONTH ) )
+RETURN DIVIDE ( [Total Sales] - Prior, Prior )
+
+
+--------------------------------------------------- 3. PROFITABILITY / RISK
+-- These drive the headline insight: discounting past 20% destroys margin.
+
+Loss-Making Line Items =
+CALCULATE ( COUNTROWS ( fact_sales ), fact_sales[profit] < 0 )
+
+% Loss-Making Items =
+DIVIDE ( [Loss-Making Line Items], COUNTROWS ( fact_sales ) )
+
+Loss Amount =
+CALCULATE ( ABS ( SUM ( fact_sales[profit] ) ), fact_sales[profit] < 0 )
+
+Avg Discount = AVERAGE ( fact_sales[discount] )
+
+Margin at Zero Discount =
+CALCULATE ( [Profit Margin %], fact_sales[discount] = 0 )
+
+Margin Lost to Discounting =
+[Margin at Zero Discount] - [Profit Margin %]
+
+Profit per Unit =
+DIVIDE ( [Total Profit], [Units Sold] )
+
+
+--------------------------------------------------- 4. RANKING / CONCENTRATION
+
+Product Sales Rank =
+RANK ( DENSE, ALLSELECTED ( dim_product[sub_category] ), ORDERBY ( [Total Sales], DESC ) )
+
+Customer Sales Rank =
+RANK ( DENSE, ALLSELECTED ( dim_customer[customer_name] ), ORDERBY ( [Total Sales], DESC ) )
+
+-- If your Power BI build predates the RANK function, use this instead:
+-- Product Sales Rank =
+-- RANKX ( ALLSELECTED ( dim_product[sub_category] ), [Total Sales], , DESC, DENSE )
+
+% of Total Sales =
+DIVIDE ( [Total Sales], CALCULATE ( [Total Sales], ALLSELECTED () ) )
+
+Top 20 Customer Revenue % =
+VAR Top20 =
+    TOPN ( 20, ALLSELECTED ( dim_customer[customer_name] ), [Total Sales], DESC )
+RETURN
+    DIVIDE (
+        CALCULATE ( [Total Sales], KEEPFILTERS ( Top20 ) ),
+        CALCULATE ( [Total Sales], ALLSELECTED () )
+    )
+
+
+--------------------------------------------------- 5. OPERATIONS / SLA
+
+Avg Ship Days = AVERAGE ( fact_sales[ship_days] )
+
+Shipments Over 5 Days =
+CALCULATE ( COUNTROWS ( fact_sales ), fact_sales[ship_days] > 5 )
+
+% Shipments Over 5 Days =
+DIVIDE ( [Shipments Over 5 Days], COUNTROWS ( fact_sales ) )
+
+
+--------------------------------------------------- 6. FORMATTING NOTES
+-- Profit Margin %, Sales YoY %, Sales MoM %, % Loss-Making Items,
+-- % of Total Sales, Top 20 Customer Revenue %, % Shipments Over 5 Days
+--     -> format as Percentage, 1 decimal
+-- Total Sales, Total Profit, Avg Order Value, Loss Amount, Profit per Unit
+--     -> Currency, 0 decimals (2 for Profit per Unit)
+-- Avg Ship Days -> Decimal, 1 place

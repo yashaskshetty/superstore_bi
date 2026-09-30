@@ -1,0 +1,2 @@
+GRANT SELECT ANY DICTIONARY TO superstore;
+exit

@@ -1,0 +1,794 @@
+customer_name,segment,sales,profit,orders,last_order,sales_rank,pct_of_revenue
+Sean Miller,Home Office,25043.05,-1980.74,5,2017-10-12,1,1.09
+Tamara Chand,Corporate,19052.22,8981.32,5,2016-11-26,2,0.83
+Raymond Buch,Consumer,15117.34,6976.1,6,2017-09-25,3,0.66
+Tom Ashbrook,Home Office,14595.62,4703.79,4,2017-10-22,4,0.64
+Adrian Barton,Consumer,14473.57,5444.81,10,2017-11-19,5,0.63
+Ken Lonsdale,Consumer,14175.23,806.85,12,2017-11-13,6,0.62
+Sanjit Chand,Consumer,14142.33,5757.41,9,2017-01-15,7,0.62
+Hunter Lopez,Consumer,12873.3,5622.43,6,2017-11-17,8,0.56
+Sanjit Engle,Consumer,12209.44,2650.68,11,2017-12-21,9,0.53
+Christopher Conant,Consumer,12129.07,2177.05,5,2017-11-17,10,0.53
+Todd Sumrall,Corporate,11891.75,2371.71,6,2017-11-24,11,0.52
+Greg Tran,Consumer,11820.12,2163.43,11,2017-11-24,12,0.51
+Becky Martin,Consumer,11789.63,-1659.96,4,2017-02-26,13,0.51
+Seth Vernon,Consumer,11470.95,1199.42,10,2017-09-20,14,0.5
+Caroline Jumper,Consumer,11164.97,858.74,8,2017-06-24,15,0.49
+Clay Ludtke,Consumer,10880.55,1933.78,12,2017-03-21,16,0.47
+Maria Etezadi,Home Office,10663.73,1859.47,10,2017-11-18,17,0.46
+Karen Ferguson,Home Office,10604.27,1660.14,7,2017-09-24,18,0.46
+Bill Shonely,Corporate,10501.65,2616.06,5,2016-06-20,19,0.46
+Edward Hooks,Corporate,10310.88,1393.52,12,2017-08-17,20,0.45
+John Lee,Consumer,9799.92,228.91,11,2017-12-09,21,0.43
+Grant Thornton,Corporate,9351.21,-4108.66,3,2017-11-04,22,0.41
+Helen Wasserman,Corporate,9300.25,2164.16,8,2017-09-04,23,0.4
+Tom Boeckenhauer,Consumer,9133.99,2798.37,7,2017-06-11,24,0.4
+Peter Fuller,Consumer,9062.86,-614.29,4,2015-09-17,25,0.39
+Christopher Martinez,Consumer,8954.02,3899.89,4,2017-11-23,26,0.39
+Justin Deggeller,Corporate,8828.03,1619.52,8,2017-11-19,27,0.38
+Joe Elijah,Consumer,8697.84,1262.29,10,2017-11-14,28,0.38
+Laura Armstrong,Corporate,8673.22,2059.12,11,2017-07-29,29,0.38
+Pete Kriz,Consumer,8646.93,2038.27,12,2017-12-21,30,0.38
+Daniel Raglin,Home Office,8350.87,2869.08,8,2017-11-10,31,0.36
+Natalie Fritzler,Consumer,8322.83,-1695.97,7,2017-10-12,32,0.36
+Karen Daniels,Consumer,8282.36,1107.7,5,2016-09-02,33,0.36
+Nick Crebassa,Corporate,8241.74,1314.76,7,2017-12-24,34,0.36
+Harry Marie,Corporate,8236.76,2437.98,10,2017-12-28,35,0.36
+Keith Dawkins,Corporate,8181.26,3038.63,12,2017-09-09,36,0.36
+Sean Braxton,Corporate,8057.89,-2082.75,7,2017-11-13,37,0.35
+Zuschuss Carroll,Consumer,8025.71,-1032.15,13,2017-11-06,38,0.35
+Joseph Holt,Consumer,7955.0,-644.7,6,2017-12-01,39,0.35
+Nora Preis,Consumer,7903.18,631.23,7,2017-08-14,40,0.34
+Anna Häberlin,Corporate,7888.29,1298.02,12,2016-11-15,41,0.34
+Adam Bellavance,Home Office,7755.62,2054.59,8,2017-11-06,42,0.34
+Jim Epp,Corporate,7754.98,1623.4,7,2017-11-12,43,0.34
+Jane Waco,Corporate,7721.71,2173.71,6,2017-11-18,44,0.34
+Lena Creighton,Consumer,7663.13,1288.35,12,2017-12-14,45,0.33
+John Murray,Consumer,7625.08,1574.62,7,2017-09-12,46,0.33
+Jonathan Doherty,Corporate,7610.86,1050.27,11,2016-12-01,47,0.33
+Patrick O'Brill,Consumer,7473.83,38.48,11,2017-12-26,48,0.33
+Maribeth Schnelling,Consumer,7443.69,844.94,10,2017-04-01,49,0.32
+Rick Wilson,Corporate,7397.4,1586.63,7,2017-09-01,50,0.32
+Brian Moss,Corporate,7294.19,2199.28,11,2017-11-27,51,0.32
+Paul Prost,Home Office,7252.61,1495.09,10,2017-09-24,52,0.32
+Natalie Webber,Consumer,7234.01,1023.12,7,2017-07-11,53,0.31
+Dean percer,Home Office,7198.76,333.36,11,2017-10-07,54,0.31
+Fred Hopkins,Corporate,6987.2,2050.28,8,2017-12-25,55,0.3
+Rick Huthwaite,Home Office,6979.18,1289.45,6,2016-09-19,56,0.3
+Penelope Sewall,Home Office,6843.63,1742.73,7,2017-05-08,57,0.3
+Brenda Bowman,Corporate,6765.73,1015.07,9,2017-12-02,58,0.29
+Joel Eaton,Consumer,6760.81,221.8,13,2017-11-09,59,0.29
+Yana Sorensen,Corporate,6720.44,1778.29,8,2017-12-21,60,0.29
+Andy Reiter,Consumer,6608.45,2884.62,6,2017-12-24,61,0.29
+Dan Reichenbach,Corporate,6528.03,1641.86,9,2017-12-27,62,0.28
+Grace Kelly,Corporate,6497.27,1448.55,9,2017-09-09,63,0.28
+Joseph Airdo,Consumer,6491.03,-819.42,8,2017-09-29,64,0.28
+Nathan Mautz,Home Office,6459.34,2751.68,7,2017-07-23,65,0.28
+Valerie Dominguez,Consumer,6442.25,1617.79,6,2016-05-28,66,0.28
+Sarah Brown,Consumer,6411.0,885.46,6,2017-06-25,67,0.28
+James Galang,Consumer,6366.39,1415.67,11,2017-12-29,68,0.28
+Darrin Martin,Consumer,6345.1,1677.39,7,2017-11-03,69,0.28
+Corinna Mitchell,Home Office,6339.56,1572.46,6,2017-12-03,70,0.28
+Max Jones,Consumer,6320.75,1054.55,7,2017-12-08,71,0.28
+Brosina Hoffman,Consumer,6255.35,802.79,8,2017-12-07,72,0.27
+Rob Lucas,Consumer,6234.91,488.15,8,2017-08-31,73,0.27
+William Brown,Consumer,6160.1,714.33,11,2017-12-10,74,0.27
+Victoria Wilson,Corporate,6134.04,-874.66,10,2017-12-02,75,0.27
+Shirley Daniels,Home Office,6121.11,1985.17,9,2017-06-13,76,0.27
+Quincy Jones,Corporate,6108.34,1203.68,9,2017-12-05,77,0.27
+Alan Dominguez,Home Office,6106.88,1869.93,8,2017-12-01,78,0.27
+Cassandra Brandow,Consumer,6076.14,150.21,10,2017-11-13,79,0.26
+Greg Maxwell,Corporate,6049.97,188.72,3,2017-09-04,80,0.26
+Shahid Collister,Consumer,5992.54,236.66,9,2017-11-30,81,0.26
+Kristen Hastings,Corporate,5990.8,1227.51,7,2017-12-28,82,0.26
+Robert Marley,Home Office,5979.1,1902.54,5,2017-12-24,83,0.26
+Keith Herrera,Consumer,5952.86,656.12,7,2017-12-08,84,0.26
+Ben Ferrer,Home Office,5907.97,1538.21,11,2017-12-14,85,0.26
+Christine Phan,Corporate,5888.27,-1850.3,8,2017-07-23,86,0.26
+Bill Donatelli,Consumer,5718.52,1094.5,12,2017-11-27,87,0.25
+Cindy Stewart,Consumer,5690.05,-6626.39,6,2017-11-02,88,0.25
+Anne McFarland,Consumer,5664.02,1085.73,8,2017-07-21,89,0.25
+Ross Baird,Home Office,5633.32,-461.73,8,2017-11-28,90,0.25
+Katherine Murray,Home Office,5620.19,973.79,8,2017-11-04,91,0.24
+Alex Avila,Consumer,5563.56,-362.88,5,2017-06-29,92,0.24
+Suzanne McNair,Corporate,5563.39,581.57,12,2017-12-05,93,0.24
+Naresj Patel,Consumer,5529.62,1208.89,6,2017-12-05,94,0.24
+Amy Cox,Consumer,5527.85,1366.01,7,2017-12-19,95,0.24
+Mick Hernandez,Home Office,5503.09,170.97,9,2017-12-25,96,0.24
+Dennis Pardue,Home Office,5480.72,1571.83,9,2017-01-06,97,0.24
+Emily Phan,Consumer,5478.06,144.96,17,2017-12-18,98,0.24
+Yoseph Carroll,Corporate,5454.35,1305.63,5,2017-12-26,99,0.24
+Stefania Perrino,Corporate,5440.32,-270.43,9,2017-11-13,100,0.24
+Luke Weiss,Consumer,5420.51,837.24,7,2017-12-09,101,0.24
+Cathy Prescott,Corporate,5402.25,427.03,8,2017-10-09,102,0.24
+Thomas Seio,Corporate,5371.09,862.89,7,2017-06-15,103,0.23
+Tonja Turnell,Home Office,5364.81,1124.5,7,2017-12-18,104,0.23
+Mitch Webber,Consumer,5341.9,1238.42,7,2017-12-13,105,0.23
+Tom Prescott,Consumer,5329.0,-1087.39,5,2017-09-17,106,0.23
+Tamara Willingham,Home Office,5278.83,737.39,7,2017-10-27,107,0.23
+Dianna Wilson,Home Office,5271.63,1348.76,5,2017-05-27,108,0.23
+Mitch Willingham,Corporate,5253.88,1665.52,2,2017-11-16,109,0.23
+Harold Ryan,Corporate,5248.79,1196.95,7,2017-07-24,110,0.23
+Steven Cartwright,Consumer,5226.21,1276.65,11,2017-06-26,111,0.23
+Resi Pölking,Consumer,5153.08,465.25,12,2017-11-27,112,0.22
+Lena Radford,Consumer,5142.89,535.48,6,2017-12-04,113,0.22
+Mike Pelletier,Home Office,5087.92,226.45,9,2017-12-14,114,0.22
+Anna Andreadi,Consumer,5086.94,857.8,6,2017-11-05,115,0.22
+Ivan Liston,Consumer,5040.74,1121.94,7,2017-08-10,116,0.22
+Kelly Lampkin,Corporate,5016.49,-182.78,8,2017-12-14,117,0.22
+Laurel Beltran,Home Office,4985.68,-52.19,8,2017-07-31,118,0.22
+Dave Hallsten,Corporate,4932.87,1193.74,6,2017-03-28,119,0.21
+Irene Maddox,Consumer,4930.47,514.65,7,2016-12-05,120,0.21
+Ted Trevino,Consumer,4915.6,751.96,7,2017-11-29,121,0.21
+Kunst Miller,Consumer,4909.47,745.77,8,2017-12-02,122,0.21
+Philisse Overcash,Home Office,4893.04,1155.43,9,2017-07-23,123,0.21
+Heather Kirkland,Corporate,4877.78,956.95,8,2017-08-01,124,0.21
+Anthony Jacobs,Corporate,4867.34,150.71,7,2017-10-16,125,0.21
+Joe Kamberova,Consumer,4867.2,55.05,10,2017-10-07,126,0.21
+Alan Hwang,Consumer,4805.34,1308.55,9,2017-12-24,127,0.21
+Dean Katz,Corporate,4802.39,209.9,9,2017-12-20,128,0.21
+Russell Applegate,Consumer,4793.54,304.87,9,2017-12-18,129,0.21
+Sue Ann Reed,Consumer,4767.34,610.15,10,2017-10-28,130,0.21
+Jim Kriz,Home Office,4760.43,1172.53,9,2017-07-03,131,0.21
+Bart Watters,Corporate,4750.36,921.26,8,2017-08-31,132,0.21
+Tracy Blumstein,Consumer,4737.49,-1603.05,9,2017-09-14,133,0.21
+Giulietta Baptist,Consumer,4716.29,1135.84,5,2017-12-17,134,0.21
+Rick Bensley,Home Office,4715.47,640.55,12,2017-12-21,135,0.21
+Erin Smith,Corporate,4657.92,246.67,9,2017-12-02,136,0.2
+Deborah Brumfield,Home Office,4655.9,841.83,8,2017-11-07,137,0.2
+Kean Thornton,Consumer,4642.09,194.07,10,2017-09-21,138,0.2
+Sample Company A,Home Office,4624.57,1011.74,9,2017-11-20,139,0.2
+Eugene Moren,Home Office,4588.44,1319.37,6,2017-11-12,140,0.2
+Dave Brooks,Consumer,4531.65,473.03,7,2017-12-14,141,0.2
+Anthony Rawles,Corporate,4523.34,494.84,8,2017-11-02,142,0.2
+Arthur Gainer,Consumer,4510.8,343.68,10,2017-09-25,143,0.2
+Anthony Johnson,Corporate,4501.39,1158.71,7,2017-07-17,144,0.2
+Linda Cazamias,Corporate,4492.95,288.27,8,2017-11-19,145,0.2
+Stewart Carmichael,Corporate,4492.66,-671.19,7,2017-11-19,146,0.2
+Theone Pippenger,Consumer,4454.06,1129.13,9,2017-12-22,147,0.19
+Mark Cousins,Corporate,4432.14,1802.39,5,2016-11-26,148,0.19
+Jamie Kunitz,Consumer,4427.14,1219.98,5,2017-10-30,149,0.19
+Katrina Willman,Consumer,4416.52,1756.13,5,2017-09-25,150,0.19
+Bradley Drucker,Consumer,4411.24,1142.12,6,2017-11-25,151,0.19
+Arianne Irving,Consumer,4375.79,867.73,10,2017-12-17,152,0.19
+Scot Coram,Corporate,4371.96,440.14,4,2017-08-03,153,0.19
+Ellis Ballard,Corporate,4358.13,656.2,5,2017-10-01,154,0.19
+Gary Zandusky,Consumer,4355.15,1087.75,9,2017-12-23,155,0.19
+Steven Roelle,Home Office,4345.89,1990.42,8,2017-06-17,156,0.19
+Natalie DeCherney,Consumer,4326.14,353.65,9,2017-12-03,157,0.19
+Matt Abelman,Home Office,4299.16,1240.23,11,2017-10-27,158,0.19
+Sung Pak,Corporate,4282.94,566.72,10,2017-10-12,159,0.19
+Dana Kaydos,Consumer,4282.18,937.65,5,2017-11-15,160,0.19
+Rick Duston,Consumer,4272.93,480.59,8,2017-10-19,161,0.19
+Toby Carlisle,Consumer,4266.81,606.37,8,2017-12-03,162,0.19
+Alan Schoenberger,Corporate,4260.78,719.78,5,2017-12-08,163,0.19
+Frank Hawley,Corporate,4256.27,1073.27,10,2017-11-23,164,0.19
+Claudia Bergmann,Corporate,4246.46,1049.56,8,2017-06-16,165,0.18
+Tracy Hopkins,Home Office,4234.1,-571.97,7,2017-10-19,166,0.18
+Bill Eplett,Home Office,4204.68,1487.77,5,2017-09-02,167,0.18
+Jill Fjeld,Consumer,4198.33,1073.21,8,2017-11-06,168,0.18
+Gary Hwang,Consumer,4172.85,1176.42,4,2017-11-10,169,0.18
+Roland Schwarz,Corporate,4159.77,1206.39,8,2017-11-24,170,0.18
+Muhammed Yedwab,Corporate,4152.7,-371.71,11,2017-10-20,171,0.18
+Peter McVee,Home Office,4115.66,526.75,4,2017-11-09,172,0.18
+Stewart Visinsky,Consumer,4105.31,485.03,9,2017-02-13,173,0.18
+Denise Monton,Corporate,4074.47,1319.06,8,2017-12-08,174,0.18
+Frank Preis,Consumer,4046.75,406.45,8,2017-12-07,175,0.18
+Susan Pistek,Consumer,3990.69,14.69,6,2017-10-21,176,0.17
+Craig Molinari,Corporate,3984.45,176.31,4,2015-03-01,177,0.17
+Michael Paige,Corporate,3983.64,638.16,9,2017-10-19,178,0.17
+Sean Christensen,Consumer,3979.07,229.16,7,2017-12-01,179,0.17
+Sanjit Jacobs,Home Office,3949.66,144.12,12,2017-09-26,180,0.17
+Luke Foster,Consumer,3930.51,-3583.98,7,2017-12-08,181,0.17
+Pierre Wener,Consumer,3922.41,1290.35,7,2016-09-22,182,0.17
+George Ashbrook,Consumer,3919.78,840.9,8,2017-08-03,183,0.17
+Ken Heidel,Corporate,3918.97,727.38,9,2017-11-02,184,0.17
+Chris Cortes,Consumer,3913.42,393.96,12,2017-12-10,185,0.17
+Dorothy Badders,Corporate,3908.8,109.33,7,2017-09-14,186,0.17
+Nora Paige,Consumer,3908.4,514.6,5,2017-11-02,187,0.17
+Kelly Collister,Consumer,3908.26,709.42,4,2017-09-24,188,0.17
+Fred Chung,Corporate,3889.37,714.29,7,2017-06-29,189,0.17
+Bill Stewart,Corporate,3887.83,-17.53,5,2017-12-02,190,0.17
+John Stevenson,Consumer,3868.02,564.98,5,2016-07-14,191,0.17
+Ruben Ausman,Corporate,3832.31,1292.87,7,2017-11-17,192,0.17
+Annie Thurman,Consumer,3831.86,974.11,10,2017-12-17,193,0.17
+Olvera Toch,Consumer,3818.62,-925.12,5,2017-10-26,194,0.17
+Rose O'Brian,Consumer,3815.48,-1262.57,7,2017-11-25,195,0.17
+Michael Chen,Consumer,3805.71,698.42,7,2017-12-29,196,0.17
+Michael Moore,Consumer,3794.08,82.13,11,2017-12-23,197,0.17
+Carol Adams,Corporate,3789.72,1143.38,6,2017-09-25,198,0.16
+Matthew Grinstein,Home Office,3785.28,341.9,7,2017-12-01,199,0.16
+Maribeth Dona,Consumer,3766.38,-241.95,7,2017-09-04,200,0.16
+Jim Karlsson,Consumer,3760.03,750.95,7,2017-10-30,201,0.16
+Juliana Krohn,Consumer,3747.67,586.66,3,2017-12-02,202,0.16
+Frank Merwin,Home Office,3736.2,198.11,9,2017-11-24,203,0.16
+Scott Cohen,Corporate,3729.79,671.0,8,2017-06-26,204,0.16
+Hunter Glantz,Consumer,3690.28,804.61,7,2017-12-24,205,0.16
+Ben Peterman,Corporate,3675.86,363.6,9,2017-12-29,206,0.16
+Liz Preis,Consumer,3653.4,338.45,7,2017-12-21,207,0.16
+Christopher Schild,Home Office,3651.86,-342.8,9,2017-12-28,208,0.16
+Ed Braxton,Corporate,3644.98,13.62,9,2017-11-12,209,0.16
+Jeremy Pistek,Consumer,3635.59,757.18,7,2017-12-22,210,0.16
+Sam Zeldin,Home Office,3625.33,366.43,11,2017-11-25,211,0.16
+Rick Hansen,Consumer,3621.38,563.79,5,2017-11-28,212,0.16
+Thomas Boland,Corporate,3589.3,829.16,4,2017-11-02,213,0.16
+Gary McGarr,Consumer,3582.82,347.27,7,2017-10-08,214,0.16
+Dionis Lloyd,Corporate,3539.32,-52.79,8,2017-10-15,215,0.15
+Erica Smith,Consumer,3510.46,1003.29,5,2017-11-20,216,0.15
+Robert Waldorf,Consumer,3495.65,707.55,5,2017-10-12,217,0.15
+Anna Gayman,Consumer,3489.04,-246.43,7,2017-09-24,218,0.15
+Emily Ducich,Home Office,3484.92,670.44,8,2017-08-17,219,0.15
+Pauline Webber,Corporate,3454.92,803.82,10,2017-11-14,220,0.15
+Sarah Foster,Consumer,3422.79,286.9,9,2017-11-01,221,0.15
+Frank Carlisle,Home Office,3418.74,1217.17,7,2017-10-21,222,0.15
+Sally Hughsby,Corporate,3406.84,558.47,13,2017-12-01,223,0.15
+Sandra Glassco,Consumer,3406.58,570.44,3,2017-12-22,224,0.15
+Trudy Schmidt,Consumer,3368.09,220.92,5,2017-05-06,225,0.15
+Sam Craven,Consumer,3362.96,-317.05,5,2015-11-10,226,0.15
+Victoria Pisteka,Corporate,3360.53,-1018.78,7,2017-10-16,227,0.15
+Doug Jacobs,Consumer,3356.4,731.56,3,2017-12-18,228,0.15
+Dianna Vittorini,Consumer,3341.59,353.21,6,2017-12-01,229,0.15
+Sylvia Foulston,Corporate,3336.54,539.94,9,2017-11-12,230,0.15
+Dan Campbell,Consumer,3336.17,-1441.63,9,2017-11-23,231,0.15
+Arthur Prichep,Consumer,3323.56,579.31,10,2017-09-23,232,0.14
+Dennis Kane,Consumer,3318.49,377.08,8,2017-12-11,233,0.14
+Katharine Harms,Corporate,3312.86,454.79,8,2017-11-20,234,0.14
+Randy Ferguson,Corporate,3309.15,633.71,8,2016-12-05,235,0.14
+Rick Reed,Corporate,3302.26,721.68,6,2017-07-13,236,0.14
+Brian Dahlen,Consumer,3288.47,634.85,7,2017-09-24,237,0.14
+Brian Stugart,Consumer,3288.11,238.74,3,2016-05-27,238,0.14
+Rob Williams,Corporate,3279.75,698.83,9,2017-10-02,239,0.14
+Daniel Lacy,Consumer,3272.2,4.21,6,2017-11-03,240,0.14
+Damala Kotsonis,Corporate,3256.48,881.12,12,2017-12-09,241,0.14
+Adam Shillingsburg,Consumer,3255.31,64.54,9,2017-12-02,242,0.14
+Jack O'Briant,Corporate,3254.95,581.4,9,2017-11-03,243,0.14
+Adam Hart,Corporate,3250.34,281.19,10,2017-11-26,244,0.14
+Henry Goldwyn,Corporate,3247.64,-2797.96,12,2017-12-07,245,0.14
+Lindsay Castell,Home Office,3246.63,299.48,4,2016-10-20,246,0.14
+Carol Triggs,Consumer,3241.9,161.23,8,2017-09-25,247,0.14
+Edward Becker,Corporate,3236.31,-80.29,10,2017-11-25,248,0.14
+Sharelle Roach,Home Office,3233.48,-3333.91,5,2017-12-22,249,0.14
+Lindsay Williams,Corporate,3230.31,662.83,6,2017-11-27,250,0.14
+Ricardo Sperren,Corporate,3221.29,633.45,5,2017-10-15,251,0.14
+Alejandro Savely,Corporate,3214.24,354.63,6,2017-12-11,252,0.14
+Mark Packer,Home Office,3206.13,600.29,7,2016-01-11,253,0.14
+Christine Sundaresam,Consumer,3202.16,831.94,11,2017-12-24,254,0.14
+Brian Thompson,Consumer,3196.75,447.75,7,2017-12-10,255,0.14
+Deirdre Greer,Corporate,3195.82,562.78,5,2017-11-28,256,0.14
+Jeremy Lonsdale,Consumer,3173.87,591.72,6,2017-11-11,257,0.14
+Greg Matthias,Consumer,3163.63,35.49,6,2017-07-31,258,0.14
+Janet Martin,Consumer,3159.12,19.82,6,2017-11-23,259,0.14
+Chloris Kastensmidt,Consumer,3154.86,141.28,13,2017-11-21,260,0.14
+Karen Bern,Corporate,3152.61,763.91,7,2017-12-26,261,0.14
+Maxwell Schwartz,Consumer,3144.68,280.86,9,2017-08-31,262,0.14
+Ruben Dartt,Consumer,3133.92,455.53,9,2017-09-07,263,0.14
+Tanja Norvell,Home Office,3130.22,-692.05,7,2017-10-01,264,0.14
+Steve Nguyen,Home Office,3127.96,481.75,7,2017-10-12,265,0.14
+Speros Goranitis,Consumer,3124.83,463.27,6,2017-09-13,266,0.14
+Katherine Hughes,Consumer,3100.61,528.21,6,2017-12-29,267,0.13
+Patrick Gardner,Consumer,3086.91,137.46,13,2017-11-24,268,0.13
+Eugene Hildebrand,Home Office,3082.65,96.27,10,2017-07-31,269,0.13
+Gary Mitchum,Home Office,3078.62,793.28,6,2017-12-14,270,0.13
+Eugene Barchas,Consumer,3071.13,184.77,6,2017-09-08,271,0.13
+Mike Gockenbach,Consumer,3061.54,-93.6,4,2017-10-07,272,0.13
+Toby Gnade,Consumer,3058.37,682.17,5,2017-01-27,273,0.13
+Kean Takahito,Consumer,3057.1,254.0,7,2016-12-04,274,0.13
+Shahid Shariari,Consumer,3056.81,-1010.97,6,2017-09-11,275,0.13
+Sara Luxemburg,Home Office,3053.01,527.97,7,2017-10-21,276,0.13
+Aaron Smayling,Corporate,3050.69,-253.57,7,2017-10-03,277,0.13
+Cynthia Arntzen,Consumer,3041.57,204.49,7,2017-09-01,278,0.13
+Carlos Soltero,Consumer,3036.55,-126.42,11,2017-12-05,279,0.13
+Lindsay Shagiari,Home Office,2988.67,262.64,9,2017-12-10,280,0.13
+Michelle Huthwaite,Consumer,2984.95,476.9,5,2017-11-11,281,0.13
+Frank Atkinson,Corporate,2984.05,520.52,7,2017-09-24,282,0.13
+David Bremer,Corporate,2973.09,-1421.77,7,2017-11-12,283,0.13
+Noel Staavos,Corporate,2964.82,-234.77,13,2017-07-09,284,0.13
+Tamara Manning,Consumer,2955.23,573.3,8,2017-09-18,285,0.13
+Christine Kargatis,Home Office,2945.32,261.22,5,2017-09-01,286,0.13
+Thea Hudgings,Corporate,2942.77,-252.55,4,2017-11-02,287,0.13
+Liz Thompson,Consumer,2936.25,320.97,8,2017-11-26,288,0.13
+Becky Castell,Home Office,2933.68,251.6,9,2017-06-11,289,0.13
+Julie Kriz,Home Office,2932.48,122.66,10,2017-09-04,290,0.13
+Shaun Weien,Consumer,2921.54,793.65,7,2017-07-21,291,0.13
+Maris LaWare,Consumer,2921.5,-76.18,6,2017-11-06,292,0.13
+Rob Dowd,Consumer,2912.89,734.52,10,2017-07-03,293,0.13
+Craig Yedwab,Corporate,2900.03,60.65,8,2017-10-31,294,0.13
+Neil Ducich,Corporate,2893.45,443.34,6,2017-06-30,295,0.13
+Meg Tillman,Consumer,2890.14,509.01,6,2017-11-11,296,0.13
+Barry Französisch,Corporate,2888.51,302.02,8,2017-10-17,297,0.13
+David Smith,Corporate,2881.81,163.7,9,2017-12-07,298,0.13
+Paul Van Hugh,Home Office,2876.05,434.53,5,2017-10-02,299,0.13
+Ionia McGrath,Consumer,2872.63,975.77,3,2016-11-16,300,0.13
+Chuck Clark,Home Office,2870.05,424.66,10,2017-12-30,301,0.12
+Craig Carroll,Consumer,2854.12,850.16,4,2015-10-23,302,0.12
+Arthur Wiediger,Home Office,2852.97,-104.55,7,2017-11-14,303,0.12
+Erin Ashbrook,Corporate,2846.7,-52.74,13,2017-07-31,304,0.12
+Linda Southworth,Corporate,2845.27,-318.77,6,2017-07-05,305,0.12
+Darren Budd,Corporate,2839.23,213.0,5,2017-05-03,306,0.12
+Justin MacKendrick,Consumer,2833.93,754.11,10,2017-11-03,307,0.12
+Christina VanderZanden,Consumer,2830.63,493.09,5,2017-04-20,308,0.12
+Troy Staebel,Consumer,2820.42,-294.7,7,2017-11-05,309,0.12
+Gary Hansen,Home Office,2819.47,-576.83,9,2017-10-16,310,0.12
+Barry Gonzalez,Consumer,2798.95,-711.43,8,2017-12-02,311,0.12
+Trudy Brown,Consumer,2797.67,379.88,9,2017-11-30,312,0.12
+Robert Dilbeck,Home Office,2786.63,835.77,5,2017-09-07,313,0.12
+John Castell,Consumer,2772.05,279.57,9,2017-07-25,314,0.12
+Philip Fox,Consumer,2770.0,196.87,6,2017-06-17,315,0.12
+Emily Burns,Consumer,2767.22,261.53,10,2017-09-21,316,0.12
+Chris Selesnick,Corporate,2754.22,738.36,12,2017-12-04,317,0.12
+Michelle Moray,Consumer,2749.88,-520.34,8,2017-10-30,318,0.12
+Ken Black,Corporate,2744.74,579.36,12,2017-05-14,319,0.12
+Lauren Leatherbury,Consumer,2741.2,560.01,6,2017-04-25,320,0.12
+Marc Crier,Consumer,2725.98,461.0,8,2017-10-15,321,0.12
+John Lucas,Consumer,2725.26,779.9,6,2016-04-25,322,0.12
+Marina Lichtenstein,Corporate,2722.84,684.92,9,2017-10-22,323,0.12
+Jay Kimmel,Consumer,2709.63,330.28,8,2017-11-16,324,0.12
+Justin Ellison,Corporate,2697.25,789.65,3,2017-12-10,325,0.12
+Bradley Talbott,Home Office,2684.49,409.5,5,2017-09-30,326,0.12
+Bill Overfelt,Corporate,2682.73,278.78,5,2017-08-15,327,0.12
+Frank Olsen,Consumer,2678.44,215.6,10,2017-11-22,328,0.12
+Nicole Hansen,Corporate,2673.29,760.17,7,2017-06-24,329,0.12
+Richard Bierner,Consumer,2663.09,477.24,8,2017-12-11,330,0.12
+Eva Jacobs,Consumer,2656.69,451.88,5,2017-11-03,331,0.12
+Dave Kipp,Consumer,2650.56,536.39,7,2017-11-18,332,0.12
+Christina Anderson,Consumer,2648.29,279.62,9,2017-11-04,333,0.12
+Logan Currie,Consumer,2633.58,231.13,9,2017-12-17,334,0.11
+Ralph Arnett,Consumer,2617.91,546.09,9,2017-12-25,335,0.11
+Katherine Nockton,Corporate,2617.27,-151.15,9,2017-12-11,336,0.11
+Sean O'Donnell,Consumer,2602.58,-81.09,6,2017-12-01,337,0.11
+Stephanie Ulpright,Home Office,2595.36,763.47,7,2017-12-10,338,0.11
+Helen Andreada,Consumer,2584.16,99.14,8,2017-12-10,339,0.11
+Alejandro Grove,Consumer,2582.9,732.74,5,2017-03-27,340,0.11
+Lena Cacioppo,Consumer,2580.7,-188.25,8,2017-12-03,341,0.11
+Steve Chapman,Corporate,2576.41,611.83,10,2017-10-02,342,0.11
+Neola Schneider,Consumer,2575.86,-12.3,4,2017-12-24,343,0.11
+Beth Thompson,Home Office,2567.66,417.59,5,2017-01-28,344,0.11
+Eleni McCrary,Corporate,2567.01,-133.83,5,2017-08-20,345,0.11
+Mary Zewe,Corporate,2564.91,787.75,6,2017-03-23,346,0.11
+Bruce Stewart,Consumer,2562.38,-113.3,7,2017-12-29,347,0.11
+Deanra Eno,Home Office,2550.87,464.47,5,2016-01-11,348,0.11
+Corey Catlett,Corporate,2540.63,331.43,7,2017-11-26,349,0.11
+Ann Chong,Corporate,2537.69,298.83,5,2017-12-24,350,0.11
+Charles McCrossin,Consumer,2533.31,-394.37,6,2017-12-04,351,0.11
+Herbert Flentye,Consumer,2533.16,-13.88,7,2017-12-09,352,0.11
+Fred McMath,Consumer,2523.27,191.49,9,2017-08-07,353,0.11
+Julia Barnett,Home Office,2518.12,201.52,5,2017-12-23,354,0.11
+Joy Smith,Consumer,2516.49,-311.26,6,2017-12-02,355,0.11
+Don Jones,Corporate,2501.69,345.25,8,2017-11-12,356,0.11
+Amy Hunt,Consumer,2495.39,-196.12,5,2017-05-14,357,0.11
+Patrick O'Donnell,Consumer,2493.21,437.85,7,2017-12-30,358,0.11
+Nick Zandusky,Home Office,2488.31,402.42,9,2017-10-06,359,0.11
+Michael Nguyen,Consumer,2477.95,290.82,6,2017-11-26,360,0.11
+Beth Paige,Consumer,2475.16,-319.06,7,2017-12-18,361,0.11
+Charles Crestani,Consumer,2471.65,392.28,7,2017-09-15,362,0.11
+Nat Carroll,Consumer,2461.4,580.31,5,2017-05-20,363,0.11
+Filia McAdams,Corporate,2456.64,249.68,10,2017-12-23,364,0.11
+Mark Hamilton,Consumer,2456.18,484.77,8,2017-10-06,365,0.11
+Brendan Sweed,Corporate,2454.93,381.78,6,2017-11-25,366,0.11
+Valerie Mitchum,Home Office,2454.87,513.53,7,2017-11-06,367,0.11
+George Zrebassa,Corporate,2454.62,828.66,4,2017-07-26,368,0.11
+Michelle Arnett,Home Office,2453.28,280.78,6,2017-06-27,369,0.11
+Bart Pistole,Corporate,2442.04,433.98,12,2017-12-13,370,0.11
+Matt Collister,Corporate,2426.07,288.98,6,2017-11-09,371,0.11
+Thea Hendricks,Consumer,2422.82,-135.21,5,2017-01-20,372,0.11
+Marc Harrigan,Home Office,2394.03,28.76,6,2017-09-02,373,0.1
+David Flashing,Consumer,2390.53,-259.31,3,2016-01-30,374,0.1
+Xylona Preis,Consumer,2374.66,621.23,11,2017-11-17,375,0.1
+Clytie Kelty,Consumer,2372.75,497.71,11,2017-11-17,376,0.1
+Jennifer Ferguson,Consumer,2371.45,635.64,6,2017-12-28,377,0.1
+Cynthia Voltz,Corporate,2370.31,99.0,9,2017-12-25,378,0.1
+Nick Radford,Consumer,2367.28,-25.15,5,2017-06-03,379,0.1
+Jack Garza,Consumer,2358.68,684.19,3,2015-12-03,380,0.1
+Andrew Gjertsen,Corporate,2356.86,295.67,8,2017-10-13,381,0.1
+Craig Leslie,Home Office,2353.59,229.01,5,2017-09-16,382,0.1
+Maureen Gastineau,Home Office,2350.19,25.89,4,2017-09-29,383,0.1
+Roland Fjeld,Consumer,2341.3,711.62,7,2017-10-02,384,0.1
+Elizabeth Moffitt,Corporate,2339.6,682.55,8,2017-11-05,385,0.1
+Dean Braden,Consumer,2332.58,169.97,10,2017-12-21,386,0.1
+Chris McAfee,Consumer,2305.71,365.04,5,2016-12-10,387,0.1
+Michael Kennedy,Corporate,2302.37,-405.36,8,2017-12-02,388,0.1
+Lena Hernandez,Consumer,2295.33,526.07,9,2017-12-09,389,0.1
+Kristina Nunn,Home Office,2280.58,329.76,8,2017-09-23,390,0.1
+Jamie Frazer,Consumer,2279.59,575.13,7,2017-10-26,391,0.1
+Fred Harton,Consumer,2271.28,706.29,4,2017-06-01,392,0.1
+Craig Carreira,Consumer,2269.7,187.84,7,2017-12-01,393,0.1
+Bobby Elias,Consumer,2261.44,755.92,5,2017-09-23,394,0.1
+Kalyca Meade,Corporate,2260.96,635.11,6,2017-12-16,395,0.1
+Matt Connell,Corporate,2258.19,195.45,8,2017-09-09,396,0.1
+Justin Hirsh,Consumer,2256.39,-96.95,4,2016-11-21,397,0.1
+Maribeth Yedwab,Corporate,2254.28,319.12,7,2017-12-01,398,0.1
+Ken Dana,Corporate,2243.51,539.72,5,2017-03-16,399,0.1
+Tony Sayre,Consumer,2243.27,11.38,6,2017-12-19,400,0.1
+Jason Gross,Corporate,2240.58,3.8,6,2017-12-28,401,0.1
+Laurel Workman,Corporate,2238.06,32.58,5,2017-10-03,402,0.1
+Allen Rosenblatt,Corporate,2236.13,-98.76,5,2017-08-27,403,0.1
+Greg Guthrie,Corporate,2224.0,12.7,9,2017-11-17,404,0.1
+Nathan Cano,Consumer,2218.99,-2204.81,6,2017-11-19,405,0.1
+Mick Crebagga,Consumer,2218.98,-64.17,10,2017-11-19,406,0.1
+Dave Poirier,Corporate,2215.0,563.18,8,2017-12-24,407,0.1
+Phillip Flathmann,Consumer,2206.13,591.31,5,2017-09-07,408,0.1
+Maya Herman,Corporate,2203.78,238.56,7,2017-09-23,409,0.1
+Janet Lee,Consumer,2203.7,54.52,5,2017-09-02,410,0.1
+Justin Ritter,Corporate,2201.69,452.37,5,2017-11-27,411,0.1
+Edward Nazzal,Consumer,2199.37,496.11,4,2017-03-18,412,0.1
+Toby Braunhardt,Consumer,2198.45,490.96,6,2016-05-26,413,0.1
+Giulietta Weimer,Consumer,2189.02,-268.54,7,2017-12-02,414,0.1
+Bill Tyler,Corporate,2186.61,257.92,6,2017-03-03,415,0.1
+Pamela Stobb,Consumer,2181.48,-134.44,6,2017-09-14,416,0.09
+Shahid Hopkins,Consumer,2180.72,-144.52,10,2017-12-07,417,0.09
+Kean Nguyen,Corporate,2171.96,114.31,5,2017-11-08,418,0.09
+Daniel Byrd,Home Office,2171.6,431.37,8,2017-12-09,419,0.09
+Roy Phan,Corporate,2170.72,594.59,8,2017-12-02,420,0.09
+Theresa Swint,Corporate,2163.62,260.87,6,2016-08-13,421,0.09
+Helen Abelman,Consumer,2163.3,270.86,7,2017-10-22,422,0.09
+Ed Jacobs,Consumer,2162.17,387.02,4,2017-03-03,423,0.09
+Neoma Murray,Consumer,2161.98,788.95,10,2017-04-30,424,0.09
+John Dryer,Consumer,2152.35,-266.55,5,2017-09-04,425,0.09
+Clay Rozendal,Home Office,2148.85,74.4,4,2017-11-03,426,0.09
+Duane Noonan,Consumer,2139.79,540.54,7,2017-05-27,427,0.09
+Karen Carlisle,Corporate,2120.95,846.12,6,2016-11-18,428,0.09
+Stefanie Holloman,Corporate,2096.39,260.63,2,2015-11-26,429,0.09
+Liz Carlisle,Consumer,2095.06,86.78,5,2017-11-06,430,0.09
+Rob Haberlin,Consumer,2085.74,172.63,3,2016-07-14,431,0.09
+Trudy Glocke,Consumer,2074.66,365.72,4,2017-09-07,432,0.09
+Max Ludwig,Home Office,2071.91,409.51,7,2017-12-01,433,0.09
+Roger Barcio,Home Office,2067.45,243.08,4,2017-11-06,434,0.09
+Tom Stivers,Corporate,2054.14,48.7,5,2017-07-11,435,0.09
+Art Ferguson,Consumer,2052.91,317.97,7,2017-11-19,436,0.09
+Carlos Daly,Consumer,2033.97,426.66,5,2017-11-20,437,0.09
+Nicole Fjeld,Home Office,2031.47,388.21,7,2017-09-07,438,0.09
+Denny Joy,Corporate,2012.52,483.04,4,2016-04-02,439,0.09
+Victoria Brennan,Corporate,2005.6,371.24,6,2017-11-06,440,0.09
+Harold Pawlan,Home Office,1990.31,373.86,7,2017-11-30,441,0.09
+Doug Bickford,Consumer,1989.05,438.8,7,2017-11-27,442,0.09
+Paul Gonzalez,Consumer,1987.16,334.52,9,2017-11-03,443,0.09
+Nona Balk,Corporate,1972.6,117.64,9,2017-12-11,444,0.09
+Scott Williamson,Consumer,1966.65,332.87,6,2017-11-30,445,0.09
+Lisa DeCherney,Consumer,1961.93,557.17,4,2016-11-11,446,0.09
+Christy Brittain,Consumer,1949.2,272.39,8,2017-12-04,447,0.08
+Tracy Poddar,Corporate,1936.64,139.23,4,2017-01-14,448,0.08
+Jas O'Carroll,Consumer,1934.27,202.14,6,2017-09-29,449,0.08
+Jay Fein,Consumer,1911.84,330.2,6,2017-09-16,450,0.08
+Max Engle,Consumer,1908.45,77.81,8,2017-12-02,451,0.08
+Susan Vittorini,Consumer,1903.49,106.89,8,2017-12-28,452,0.08
+Katherine Ducich,Consumer,1888.96,328.59,6,2017-11-19,453,0.08
+Giulietta Dortch,Corporate,1888.07,230.94,4,2017-12-25,454,0.08
+Sheri Gordon,Consumer,1884.8,-119.01,8,2017-06-30,455,0.08
+Lisa Ryan,Corporate,1879.31,-382.81,5,2017-08-20,456,0.08
+Shaun Chance,Corporate,1875.0,379.56,7,2017-11-24,457,0.08
+Brooke Gillingham,Corporate,1874.17,107.57,6,2017-11-24,458,0.08
+Stephanie Phelps,Corporate,1872.44,268.48,9,2016-12-09,459,0.08
+Nat Gilpin,Corporate,1869.58,313.63,5,2017-11-12,460,0.08
+Cynthia Delaney,Home Office,1860.73,403.84,5,2016-11-26,461,0.08
+Skye Norling,Home Office,1860.42,-716.86,6,2017-09-10,462,0.08
+Patrick Ryan,Consumer,1840.18,247.62,5,2017-11-24,463,0.08
+Ashley Jarboe,Consumer,1839.24,521.14,7,2017-10-06,464,0.08
+Pamela Coakley,Corporate,1832.06,272.69,4,2017-12-28,465,0.08
+Emily Grady,Consumer,1832.02,104.27,5,2017-12-08,466,0.08
+Pauline Johnson,Consumer,1824.23,683.0,7,2017-08-18,467,0.08
+Noah Childs,Corporate,1821.74,-359.02,5,2017-06-09,468,0.08
+Janet Molinari,Corporate,1804.15,502.61,5,2017-11-23,469,0.08
+Jennifer Braxton,Corporate,1791.61,156.05,10,2017-12-23,470,0.08
+Andrew Allen,Consumer,1790.51,435.83,4,2017-04-15,471,0.08
+Chad Cunningham,Home Office,1770.94,208.59,6,2016-09-29,472,0.08
+Darrin Sayre,Home Office,1762.21,193.33,4,2017-09-28,473,0.08
+Monica Federle,Corporate,1758.3,456.86,5,2017-12-23,474,0.08
+Aaron Hawkins,Corporate,1744.7,365.22,7,2017-12-18,475,0.08
+Logan Haushalter,Consumer,1739.69,316.52,9,2016-12-10,476,0.08
+Ben Wallace,Consumer,1738.41,247.0,6,2017-06-10,477,0.08
+Valerie Takahito,Home Office,1736.6,-224.09,2,2015-04-05,478,0.08
+Adrian Hane,Home Office,1735.51,-2.31,7,2017-10-31,479,0.08
+Mike Vittorini,Consumer,1734.57,273.86,7,2017-12-11,480,0.08
+Jessica Myrick,Consumer,1733.44,356.54,7,2017-09-19,481,0.08
+Brad Eason,Home Office,1727.65,139.2,6,2017-04-20,482,0.08
+Denny Blanton,Consumer,1711.69,438.91,4,2017-06-26,483,0.07
+Julie Prescott,Home Office,1707.71,309.71,9,2017-09-19,484,0.07
+Tracy Zic,Consumer,1707.29,224.89,4,2017-11-25,485,0.07
+Becky Pak,Consumer,1697.86,647.38,6,2017-10-02,486,0.07
+Darren Koutras,Consumer,1687.04,-107.35,5,2017-12-23,487,0.07
+Meg O'Connel,Home Office,1687.03,169.34,8,2017-09-17,488,0.07
+Ryan Akin,Consumer,1686.92,-445.69,5,2017-10-30,489,0.07
+Katrina Edelman,Corporate,1686.73,397.88,8,2017-12-04,490,0.07
+Cathy Armstrong,Home Office,1679.72,211.26,5,2016-11-24,491,0.07
+Candace McMahon,Corporate,1673.89,214.46,6,2017-08-21,492,0.07
+Jennifer Patt,Corporate,1669.13,429.75,7,2017-11-23,493,0.07
+Chad McGuire,Consumer,1661.61,409.07,4,2017-12-22,494,0.07
+Cindy Chapman,Consumer,1659.44,154.85,9,2017-11-21,495,0.07
+Erica Bern,Corporate,1643.26,162.88,4,2017-12-30,496,0.07
+Anne Pryor,Home Office,1638.55,285.79,8,2017-11-19,497,0.07
+Annie Zypern,Consumer,1622.02,154.95,6,2017-07-23,498,0.07
+Maurice Satty,Consumer,1613.4,247.43,6,2016-11-12,499,0.07
+Tim Brockman,Consumer,1602.38,260.62,7,2017-01-15,500,0.07
+Craig Reiter,Consumer,1600.55,306.92,4,2017-10-13,501,0.07
+Alan Haines,Corporate,1587.45,-378.55,4,2017-11-05,502,0.07
+Benjamin Farhat,Home Office,1585.16,523.21,4,2017-10-26,503,0.07
+Cyma Kinney,Corporate,1582.11,-338.43,9,2017-10-09,504,0.07
+Mike Caudle,Corporate,1582.0,121.76,5,2016-12-26,505,0.07
+James Lanier,Home Office,1571.52,209.28,5,2017-12-24,506,0.07
+Karl Braun,Consumer,1569.46,49.72,9,2017-03-09,507,0.07
+George Bell,Corporate,1568.44,7.84,11,2017-10-29,508,0.07
+Odella Nelson,Corporate,1567.52,-5.89,9,2016-11-15,509,0.07
+Mark Van Huff,Consumer,1560.05,189.03,9,2017-12-03,510,0.07
+Maria Bertelson,Consumer,1548.7,212.43,10,2017-11-12,511,0.07
+Brian DeCherney,Consumer,1538.11,206.76,6,2017-10-22,512,0.07
+Cathy Hwang,Home Office,1537.24,195.15,3,2016-02-08,513,0.07
+Bruce Degenhardt,Consumer,1526.5,333.98,6,2017-09-28,514,0.07
+Benjamin Venier,Corporate,1523.27,315.22,5,2017-01-30,515,0.07
+Kelly Andreada,Consumer,1519.51,234.92,7,2017-11-24,516,0.07
+Ann Blume,Corporate,1515.86,-274.96,4,2017-11-10,517,0.07
+John Grady,Corporate,1507.02,206.1,6,2017-05-21,518,0.07
+Dan Lawera,Consumer,1503.11,322.24,8,2017-09-21,519,0.07
+Zuschuss Donatelli,Consumer,1493.94,249.13,5,2017-06-11,520,0.07
+Charlotte Melton,Consumer,1475.14,91.2,6,2017-12-22,521,0.06
+Laurel Elliston,Consumer,1469.45,161.76,6,2017-12-09,522,0.06
+Ted Butterfield,Consumer,1467.88,390.21,5,2017-09-02,523,0.06
+Parhena Norris,Home Office,1467.15,192.04,8,2017-11-30,524,0.06
+Ralph Kennedy,Consumer,1460.19,269.69,3,2017-09-02,525,0.06
+Bradley Nguyen,Consumer,1459.34,340.71,5,2017-12-21,526,0.06
+Delfina Latchford,Consumer,1458.26,288.87,8,2017-12-08,527,0.06
+Philip Brown,Consumer,1456.95,280.66,8,2017-09-24,528,0.06
+Andy Gerbode,Corporate,1455.04,-152.76,4,2015-09-07,529,0.06
+Raymond Messe,Consumer,1453.47,392.15,6,2017-01-19,530,0.06
+Paul Knutson,Home Office,1441.15,-798.71,2,2016-09-03,531,0.06
+Tamara Dahlen,Consumer,1434.55,88.19,9,2017-11-23,532,0.06
+Julia West,Consumer,1428.73,154.06,4,2016-09-25,533,0.06
+Mick Brown,Consumer,1428.23,117.81,7,2017-11-16,534,0.06
+Thomas Thornton,Consumer,1427.04,278.74,8,2017-06-30,535,0.06
+Christine Abelman,Corporate,1421.95,246.02,4,2017-12-17,536,0.06
+Roger Demir,Consumer,1419.74,207.33,10,2017-12-09,537,0.06
+Nancy Lomonaco,Home Office,1418.09,343.64,4,2017-11-02,538,0.06
+Jill Stevenson,Corporate,1417.65,-175.55,4,2017-09-02,539,0.06
+Paul MacIntyre,Consumer,1405.4,157.88,3,2016-12-09,540,0.06
+Guy Armstrong,Consumer,1398.38,136.71,11,2017-12-25,541,0.06
+Cyra Reiten,Home Office,1397.87,83.27,3,2017-10-06,542,0.06
+Nathan Gelder,Consumer,1395.94,217.09,5,2017-11-12,543,0.06
+Jeremy Ellison,Consumer,1388.68,276.22,6,2017-06-20,544,0.06
+Troy Blackwell,Consumer,1387.56,-136.41,5,2017-03-20,545,0.06
+Frank Gastineau,Home Office,1383.14,394.74,7,2017-11-26,546,0.06
+Don Miller,Corporate,1376.79,199.77,3,2016-09-05,547,0.06
+Gene Hale,Corporate,1361.24,-95.45,2,2016-12-08,548,0.06
+Sarah Bern,Consumer,1348.02,157.67,3,2017-06-12,549,0.06
+Liz MacKendrick,Consumer,1346.77,-44.88,5,2016-12-04,550,0.06
+Maureen Gnade,Consumer,1342.28,-398.79,3,2016-06-23,551,0.06
+Sarah Jordon,Consumer,1341.04,-23.51,6,2017-12-01,552,0.06
+Bryan Mills,Consumer,1338.84,137.74,10,2017-05-26,553,0.06
+Barry Franz,Home Office,1333.88,-291.38,4,2017-11-21,554,0.06
+Saphhira Shifley,Corporate,1324.03,332.35,8,2017-12-15,555,0.06
+Dario Medina,Corporate,1322.03,108.76,7,2017-09-07,556,0.06
+Michelle Tran,Home Office,1319.45,-23.68,4,2017-06-10,557,0.06
+Shirley Jackson,Consumer,1318.78,68.1,5,2017-04-21,558,0.06
+Magdelene Morse,Consumer,1314.02,178.4,4,2017-07-15,559,0.06
+Sibella Parks,Corporate,1306.09,-118.78,6,2017-02-06,560,0.06
+Matt Collins,Consumer,1303.89,210.75,8,2017-12-03,561,0.06
+Eileen Kiefer,Home Office,1303.48,97.11,4,2017-11-16,562,0.06
+Corey-Lock,Consumer,1300.08,205.63,5,2016-06-29,563,0.06
+Denny Ordway,Consumer,1300.03,-38.91,9,2017-08-19,564,0.06
+Hallie Redmond,Home Office,1299.29,185.58,5,2017-12-17,565,0.06
+Georgia Rosenberg,Corporate,1284.38,359.83,2,2014-11-21,566,0.06
+Cari Sayre,Corporate,1278.95,185.38,5,2017-09-30,567,0.06
+Paul Stevenson,Home Office,1278.64,198.51,8,2017-10-22,568,0.06
+Stuart Van,Corporate,1271.09,199.65,4,2017-10-15,569,0.06
+Doug O'Connell,Consumer,1267.32,294.07,7,2017-12-04,570,0.06
+Carl Ludwig,Consumer,1262.01,328.08,4,2017-09-15,571,0.05
+Liz Willingham,Consumer,1259.04,192.63,3,2017-06-08,572,0.05
+Michelle Ellison,Corporate,1256.94,107.36,4,2017-09-29,573,0.05
+Gene McClure,Consumer,1255.68,441.32,10,2017-09-15,574,0.05
+Steve Carroll,Home Office,1254.64,370.16,6,2017-08-26,575,0.05
+Matt Hagelstein,Corporate,1252.8,122.36,4,2017-07-28,576,0.05
+Elpida Rittenbach,Corporate,1245.79,-295.74,3,2016-11-04,577,0.05
+Tony Chapman,Home Office,1244.98,119.1,9,2017-07-30,578,0.05
+Joni Wasserman,Consumer,1244.09,-29.58,7,2017-12-25,579,0.05
+Michael Grace,Home Office,1242.83,-470.77,5,2017-09-05,580,0.05
+Nora Pelletier,Home Office,1228.7,514.5,6,2016-11-19,581,0.05
+Patrick Jones,Corporate,1220.09,442.14,8,2017-11-21,582,0.05
+Erica Hernandez,Home Office,1219.53,-94.14,7,2017-12-28,583,0.05
+Jack Lebron,Consumer,1214.96,-207.8,6,2017-12-22,584,0.05
+Christina DeMoss,Consumer,1205.58,233.03,2,2017-11-18,585,0.05
+Michael Dominguez,Corporate,1204.91,-4.04,5,2017-11-24,586,0.05
+Dorothy Wardle,Corporate,1204.85,-266.9,7,2017-05-02,587,0.05
+Evan Bailliet,Consumer,1186.33,282.17,6,2017-10-09,588,0.05
+Benjamin Patterson,Consumer,1181.49,-197.27,5,2017-11-21,589,0.05
+Debra Catini,Consumer,1174.62,132.07,5,2017-12-07,590,0.05
+Alyssa Tate,Home Office,1171.81,100.88,6,2017-12-09,591,0.05
+Jim Radford,Consumer,1156.66,-785.16,2,2016-05-16,592,0.05
+Duane Benoit,Consumer,1155.2,177.67,7,2017-12-18,593,0.05
+Claire Gute,Consumer,1148.78,169.93,3,2017-01-26,594,0.05
+Kimberly Carter,Corporate,1146.05,156.78,4,2017-11-03,595,0.05
+Ross DeVincentis,Home Office,1137.62,318.46,8,2017-12-16,596,0.05
+Carl Weiss,Home Office,1136.59,370.83,6,2017-12-08,597,0.05
+Jim Sink,Corporate,1131.06,-54.87,4,2017-11-18,598,0.05
+Darrin Van Huff,Corporate,1119.48,-427.18,5,2017-12-11,599,0.05
+Alan Barnes,Consumer,1113.84,220.81,8,2017-12-05,600,0.05
+Tony Molinari,Consumer,1094.68,292.52,3,2017-08-22,601,0.05
+Jesus Ocampo,Home Office,1090.84,167.67,5,2017-05-29,602,0.05
+Scot Wooten,Consumer,1085.08,-19.61,7,2017-10-10,603,0.05
+Jeremy Farry,Consumer,1082.92,-18.07,11,2017-08-31,604,0.05
+Dennis Bolton,Home Office,1081.47,291.01,5,2017-04-10,605,0.05
+David Wiener,Corporate,1080.75,-86.87,6,2017-10-22,606,0.05
+Cindy Schnelling,Corporate,1077.23,-302.88,4,2016-11-01,607,0.05
+Pauline Chand,Home Office,1061.49,-184.34,2,2015-08-01,608,0.05
+David Philippe,Consumer,1058.62,-40.94,2,2015-10-10,609,0.05
+Jenna Caffey,Consumer,1058.11,502.92,1,2017-07-08,610,0.05
+Phillina Ober,Home Office,1056.86,-49.7,5,2017-10-05,611,0.05
+Allen Armold,Consumer,1056.39,277.38,9,2017-12-11,612,0.05
+Vivek Sundaresam,Consumer,1055.98,-262.81,4,2017-05-23,613,0.05
+Alex Russell,Corporate,1055.69,-221.05,4,2017-09-10,614,0.05
+Darren Powers,Consumer,1050.64,241.45,9,2017-08-26,615,0.05
+Duane Huffman,Home Office,1043.1,116.67,4,2015-11-15,616,0.05
+Susan MacKendrick,Consumer,1043.04,-237.29,1,2016-05-03,617,0.05
+Eudokia Martin,Corporate,1041.04,240.24,4,2017-09-08,618,0.05
+Theresa Coyne,Corporate,1038.26,265.53,1,2017-09-15,619,0.05
+Mike Kennedy,Consumer,1031.6,227.83,4,2017-05-04,620,0.04
+Tiffany House,Corporate,1022.2,92.73,8,2017-09-04,621,0.04
+Sean Wendt,Home Office,1019.04,95.84,3,2017-07-21,622,0.04
+Luke Schmidt,Corporate,1010.26,244.2,6,2017-09-25,623,0.04
+Randy Bradley,Consumer,1008.2,-164.41,2,2017-10-23,624,0.04
+Lynn Smith,Consumer,1008.14,348.36,6,2017-11-26,625,0.04
+Bruce Geld,Consumer,1006.36,119.35,6,2017-11-03,626,0.04
+Victor Preis,Home Office,993.9,205.39,3,2017-11-30,627,0.04
+Ken Brennan,Corporate,983.92,293.55,7,2017-12-29,628,0.04
+Barry Pond,Corporate,983.42,209.78,5,2017-10-08,629,0.04
+Toby Swindell,Consumer,974.78,-184.98,5,2017-05-18,630,0.04
+Russell D'Ascenzo,Consumer,970.94,35.06,4,2017-11-18,631,0.04
+Aimee Bixby,Consumer,966.71,313.66,5,2017-11-19,632,0.04
+Roy Collins,Consumer,966.41,63.99,6,2016-12-26,633,0.04
+Sung Shariari,Consumer,964.64,-75.59,5,2017-09-01,634,0.04
+Jonathan Howell,Consumer,959.48,-13.55,7,2017-11-19,635,0.04
+Jason Fortune-,Consumer,955.12,97.29,5,2017-05-19,636,0.04
+Rachel Payne,Corporate,954.65,59.54,4,2016-08-21,637,0.04
+Bryan Spruell,Home Office,949.43,194.05,2,2017-04-09,638,0.04
+Roy Französisch,Consumer,945.22,280.03,8,2017-12-24,639,0.04
+Eric Barreto,Consumer,944.6,0.6,5,2017-07-22,640,0.04
+Maureen Fritzler,Corporate,937.04,-341.53,5,2016-11-04,641,0.04
+Eric Murdock,Consumer,933.7,102.3,5,2017-08-01,642,0.04
+Alyssa Crouse,Corporate,925.8,-62.13,3,2017-05-12,643,0.04
+Evan Henry,Consumer,923.88,242.11,6,2017-09-16,644,0.04
+Mary O'Rourke,Consumer,922.49,59.36,4,2017-10-19,645,0.04
+Alejandro Ballentine,Home Office,914.53,264.57,9,2017-07-17,646,0.04
+Katrina Bavinger,Home Office,908.82,274.3,3,2017-09-04,647,0.04
+Catherine Glotzbach,Home Office,904.47,86.51,6,2017-11-11,648,0.04
+Sonia Cooley,Consumer,902.73,100.23,5,2017-09-29,649,0.04
+Joni Blumstein,Consumer,900.55,-286.98,3,2015-12-24,650,0.04
+Henia Zydlo,Consumer,886.52,-130.39,5,2017-11-25,651,0.04
+Aaron Bergman,Consumer,886.16,129.35,3,2016-11-10,652,0.04
+Ryan Crowe,Consumer,885.75,10.56,6,2017-09-11,653,0.04
+Chad Sievert,Consumer,884.64,143.83,4,2016-08-28,654,0.04
+Harold Engle,Corporate,883.53,274.4,4,2017-12-18,655,0.04
+Sally Knutson,Consumer,883.41,168.79,3,2017-12-22,656,0.04
+Richard Eichhorn,Consumer,876.7,209.23,5,2017-03-03,657,0.04
+Jim Mitchum,Corporate,864.95,117.2,5,2017-12-22,658,0.04
+Jocasta Rupert,Consumer,863.88,107.98,1,2017-10-23,659,0.04
+Art Foster,Consumer,861.56,-163.12,4,2016-11-10,660,0.04
+Julie Creighton,Corporate,858.58,201.6,5,2017-11-03,661,0.04
+Michael Stewart,Corporate,855.12,55.23,6,2017-12-04,662,0.04
+Vicky Freymann,Home Office,847.94,-96.28,5,2017-12-17,663,0.04
+Vivek Gonzalez,Consumer,846.01,143.63,6,2017-07-29,664,0.04
+Charles Sheldon,Corporate,844.46,113.14,5,2017-05-12,665,0.04
+Todd Boyes,Corporate,834.33,268.97,5,2017-08-06,666,0.04
+Ann Steele,Home Office,833.4,136.49,7,2017-09-29,667,0.04
+Erica Hackney,Consumer,825.95,150.38,6,2016-11-20,668,0.04
+Thomas Brumley,Home Office,816.17,179.0,4,2017-11-11,669,0.04
+Alice McCarthy,Corporate,814.01,194.99,5,2017-12-02,670,0.04
+Brendan Murry,Corporate,808.16,95.58,6,2017-09-21,671,0.04
+David Kendrick,Corporate,797.83,249.94,2,2017-12-20,672,0.03
+Matthew Clasen,Corporate,795.15,-247.94,4,2017-06-24,673,0.03
+Beth Fritzler,Corporate,791.99,25.87,3,2017-11-03,674,0.03
+Harry Greene,Consumer,785.63,147.0,5,2017-11-06,675,0.03
+Michael Granlund,Home Office,776.38,171.74,9,2017-09-22,676,0.03
+Muhammed MacIntyre,Corporate,775.41,58.89,9,2017-10-06,677,0.03
+Sandra Flanagan,Consumer,763.55,228.16,7,2017-11-01,678,0.03
+Steven Ward,Corporate,758.7,68.24,2,2016-07-14,679,0.03
+Liz Pelletier,Consumer,756.61,110.78,4,2017-11-20,680,0.03
+Dorris liebe,Corporate,755.6,175.24,5,2017-09-02,681,0.03
+Ivan Gibson,Consumer,744.57,320.5,4,2017-10-20,682,0.03
+Barry Blumstein,Corporate,744.34,11.58,5,2017-09-16,683,0.03
+Tracy Collins,Home Office,742.56,217.93,7,2017-12-26,684,0.03
+Michelle Lonsdale,Corporate,742.08,138.72,3,2017-10-12,685,0.03
+Ritsa Hightower,Consumer,740.38,0.31,2,2016-07-29,686,0.03
+Patrick Bzostek,Home Office,740.36,229.23,3,2017-12-05,687,0.03
+Angele Hood,Consumer,738.5,83.96,4,2017-12-09,688,0.03
+Henry MacAllister,Consumer,736.28,117.28,4,2017-04-27,689,0.03
+Patricia Hirasaki,Home Office,729.65,47.89,1,2017-10-21,690,0.03
+Pete Armstrong,Home Office,729.41,225.86,6,2017-09-18,691,0.03
+Jennifer Jackson,Consumer,709.18,200.56,5,2016-09-03,692,0.03
+Julia Dunbar,Consumer,695.44,111.11,3,2017-03-05,693,0.03
+Peter Bühler,Consumer,688.32,218.16,4,2017-11-03,694,0.03
+Eric Hoffmann,Consumer,684.17,53.54,8,2017-05-27,695,0.03
+Toby Ritter,Consumer,675.94,220.36,5,2017-06-20,696,0.03
+Alex Grayson,Consumer,660.97,-5.14,5,2017-12-22,697,0.03
+Berenike Kampe,Consumer,659.14,-63.76,6,2017-10-14,698,0.03
+Bryan Davis,Consumer,658.47,141.26,6,2017-02-06,699,0.03
+Anna Chung,Consumer,657.32,-28.7,5,2017-03-23,700,0.03
+Anthony Witt,Consumer,649.38,65.77,4,2017-12-10,701,0.03
+Lori Olson,Corporate,644.35,150.17,5,2017-12-28,702,0.03
+Joy Bell-,Consumer,644.12,126.76,7,2017-11-17,703,0.03
+Carol Darley,Consumer,639.77,-206.72,3,2017-11-06,704,0.03
+Mathew Reese,Home Office,639.18,162.94,4,2017-08-27,705,0.03
+Astrea Jones,Consumer,629.25,60.43,3,2017-10-17,706,0.03
+Ralph Ritter,Consumer,615.93,-73.83,2,2017-12-11,707,0.03
+Shirley Schmidt,Home Office,613.4,199.93,3,2016-08-26,708,0.03
+Bobby Trafton,Consumer,603.88,-77.53,4,2016-06-18,709,0.03
+Barbara Fisher,Corporate,599.8,227.44,7,2017-09-30,710,0.03
+Maria Zettner,Home Office,593.61,85.02,4,2017-11-30,711,0.03
+Denise Leinenbach,Consumer,585.02,222.68,4,2017-11-03,712,0.03
+Alan Shonely,Consumer,584.61,33.72,7,2017-06-21,713,0.03
+Brian Derr,Consumer,582.65,141.53,3,2017-12-21,714,0.03
+Neil Knudson,Home Office,572.05,121.22,7,2017-10-21,715,0.02
+Carlos Meador,Consumer,565.39,-43.73,2,2016-01-22,716,0.02
+Chuck Sachs,Consumer,550.64,156.26,2,2017-12-03,717,0.02
+Cari Schnelling,Consumer,537.63,105.83,6,2017-07-21,718,0.02
+John Huston,Consumer,528.91,26.08,6,2017-07-09,719,0.02
+Rob Beeghly,Consumer,528.55,76.89,5,2017-12-05,720,0.02
+Andy Yotov,Corporate,497.01,103.35,4,2017-12-16,721,0.02
+Corey Roper,Home Office,475.9,144.76,3,2016-09-16,722,0.02
+MaryBeth Skach,Consumer,475.66,84.03,4,2016-10-22,723,0.02
+Joni Sundaresam,Home Office,469.17,-327.93,5,2016-09-23,724,0.02
+Erin Creighton,Consumer,461.91,96.43,5,2017-11-07,725,0.02
+Khloe Miller,Consumer,453.54,91.14,5,2017-12-15,726,0.02
+Kelly Williams,Consumer,449.1,107.93,4,2015-11-20,727,0.02
+Tim Taslimi,Corporate,439.5,93.92,3,2016-11-19,728,0.02
+Shui Tom,Consumer,433.34,84.44,7,2017-08-27,729,0.02
+Vivek Grady,Corporate,427.37,-52.33,5,2017-03-19,730,0.02
+Sonia Sunley,Consumer,418.49,135.54,6,2016-10-24,731,0.02
+Brad Thomas,Home Office,415.2,126.87,2,2016-03-11,732,0.02
+Mark Haberlin,Corporate,400.02,61.43,4,2016-12-19,733,0.02
+Barry Weirich,Consumer,385.52,-58.29,3,2017-06-01,734,0.02
+Joy Daniels,Consumer,385.43,26.76,6,2017-09-09,735,0.02
+Jason Klamczynski,Corporate,383.81,55.33,3,2017-03-18,736,0.02
+Vivian Mathis,Consumer,380.69,116.64,5,2017-09-04,737,0.02
+Neil Französisch,Home Office,377.16,85.93,4,2016-07-23,738,0.02
+Melanie Seite,Consumer,370.35,19.43,4,2016-10-04,739,0.02
+Lycoris Saunders,Consumer,368.88,39.2,3,2015-11-14,740,0.02
+Aleksandra Gannaway,Corporate,367.55,59.29,4,2017-09-03,741,0.02
+Evan Minnotte,Home Office,366.82,21.77,3,2017-07-25,742,0.02
+Heather Jas,Home Office,358.1,98.65,5,2017-08-26,743,0.02
+Don Weiss,Consumer,344.08,69.67,5,2017-09-23,744,0.01
+Larry Tron,Consumer,329.88,59.04,3,2017-12-04,745,0.01
+Brendan Dodson,Home Office,320.54,116.71,2,2017-03-27,746,0.01
+Lisa Hazard,Consumer,318.24,-242.74,4,2017-05-05,747,0.01
+Jennifer Halladay,Consumer,309.28,-24.08,4,2017-12-25,748,0.01
+Jill Matthias,Consumer,303.95,113.12,5,2017-12-30,749,0.01
+Chuck Magee,Consumer,287.99,64.43,3,2016-10-20,750,0.01
+Larry Hughes,Consumer,287.43,12.63,3,2017-08-01,751,0.01
+Sung Chung,Consumer,280.63,31.18,2,2017-08-21,752,0.01
+Stuart Calhoun,Consumer,279.26,51.83,4,2017-11-30,753,0.01
+Nicole Brennan,Corporate,273.87,24.79,2,2014-10-22,754,0.01
+Bart Folk,Consumer,272.95,110.93,3,2017-12-05,755,0.01
+Dorothy Dickinson,Consumer,269.54,36.43,6,2017-11-19,756,0.01
+Brad Norvell,Corporate,265.3,36.61,4,2017-12-06,757,0.01
+Andrew Roberts,Consumer,264.86,43.67,5,2017-12-16,758,0.01
+Harold Dahlen,Home Office,251.36,-135.88,3,2015-11-22,759,0.01
+Sally Matthias,Consumer,244.49,-26.59,4,2016-11-04,760,0.01
+Paul Lucas,Home Office,239.48,-0.75,5,2017-12-15,761,0.01
+Guy Phonely,Corporate,236.53,31.84,2,2015-11-26,762,0.01
+Erin Mull,Consumer,228.99,40.15,4,2017-11-13,763,0.01
+Guy Thornton,Consumer,226.44,-6.14,4,2017-11-26,764,0.01
+Robert Barroso,Corporate,221.08,72.68,5,2016-03-22,765,0.01
+Hilary Holden,Corporate,218.67,86.73,2,2017-10-19,766,0.01
+Allen Goldenen,Consumer,200.94,69.28,5,2017-09-07,767,0.01
+Joel Jenkins,Home Office,195.0,34.45,2,2015-12-08,768,0.01
+Anthony Garverick,Home Office,170.58,-8.43,4,2017-10-14,769,0.01
+Muhammed Lee,Consumer,162.23,42.66,2,2017-09-21,770,0.01
+Anthony O'Donnell,Corporate,161.28,12.1,1,2016-08-16,771,0.01
+Pete Takahito,Consumer,160.57,-20.05,4,2017-10-20,772,0.01
+Dianna Arnett,Home Office,156.76,56.79,4,2017-01-12,773,0.01
+Michael Oakman,Consumer,154.29,-82.01,2,2017-07-03,774,0.01
+Greg Hansen,Consumer,146.94,-5.81,2,2017-12-28,775,0.01
+Phillip Breyer,Corporate,132.74,21.9,2,2016-02-11,776,0.01
+Bobby Odegard,Consumer,130.83,59.45,2,2017-10-16,777,0.01
+Ed Ludwig,Home Office,124.28,27.12,2,2017-10-14,778,0.01
+Clay Cheatham,Consumer,113.83,33.87,3,2017-12-03,779,0.0
+Roland Murray,Consumer,98.35,28.69,1,2017-03-06,780,0.0
+Karen Seio,Corporate,88.47,0.11,3,2017-03-10,781,0.0
+Anemone Ratner,Consumer,88.15,32.63,1,2016-07-14,782,0.0
+Fred Wasserman,Corporate,79.75,23.49,3,2017-01-02,783,0.0
+Jasper Cacioppo,Consumer,71.26,-0.36,4,2017-09-07,784,0.0
+Adrian Shami,Home Office,58.82,21.85,2,2017-11-19,785,0.0
+Larry Blacks,Consumer,50.19,18.65,3,2017-11-12,786,0.0
+Ricardo Emerson,Consumer,48.36,6.04,1,2014-12-29,787,0.0
+Susan Gilcrest,Corporate,47.95,-3.71,3,2017-05-18,788,0.0
+Roy Skaria,Home Office,22.33,9.58,2,2017-12-11,789,0.0
+Mitch Gastineau,Corporate,16.74,-1.25,1,2017-04-10,790,0.0
+Carl Jackson,Corporate,16.52,1.65,1,2016-12-30,791,0.0
+Lela Donovan,Corporate,5.3,0.46,1,2016-06-26,792,0.0
+Thais Sissman,Consumer,4.83,-3.32,2,2017-01-07,793,0.0
