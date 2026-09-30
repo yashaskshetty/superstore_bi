@@ -1,0 +1,88 @@
+// =====================================================================
+//  SUPERSTORE BI - all 29 measures, for Power BI DAX QUERY VIEW
+//
+//  FAST PATH - adds every measure in one go:
+//    1. Click the DAX icon on the left rail (below the Model icon)
+//    2. Paste this entire file into the query editor
+//    3. Click Run  (confirms it parses)
+//    4. Click "Update model: Add new measures" in the banner that appears
+//
+//  Object names are UPPERCASE to match the Oracle ODBC import.
+// =====================================================================
+
+DEFINE
+    // ---------- 1. CORE KPIs ----------
+    MEASURE FACT_SALES[Total Sales]   = SUM ( FACT_SALES[SALES] )
+    MEASURE FACT_SALES[Total Profit]  = SUM ( FACT_SALES[PROFIT] )
+    MEASURE FACT_SALES[Profit Margin %] = DIVIDE ( [Total Profit], [Total Sales] )
+    MEASURE FACT_SALES[Total Orders]  = DISTINCTCOUNT ( FACT_SALES[ORDER_ID] )
+    MEASURE FACT_SALES[Units Sold]    = SUM ( FACT_SALES[QUANTITY] )
+    MEASURE FACT_SALES[Avg Order Value] = DIVIDE ( [Total Sales], [Total Orders] )
+    MEASURE FACT_SALES[Customer Count] = DISTINCTCOUNT ( DIM_CUSTOMER[CUSTOMER_KEY] )
+
+    // ---------- 2. TIME INTELLIGENCE ----------
+    // requires DIM_DATE marked as a date table on FULL_DATE
+    MEASURE FACT_SALES[Sales LY] =
+        CALCULATE ( [Total Sales], SAMEPERIODLASTYEAR ( DIM_DATE[FULL_DATE] ) )
+    MEASURE FACT_SALES[Sales YoY %] =
+        DIVIDE ( [Total Sales] - [Sales LY], [Sales LY] )
+    MEASURE FACT_SALES[Sales YTD]  = TOTALYTD ( [Total Sales],  DIM_DATE[FULL_DATE] )
+    MEASURE FACT_SALES[Profit YTD] = TOTALYTD ( [Total Profit], DIM_DATE[FULL_DATE] )
+    MEASURE FACT_SALES[Sales Rolling 3M] =
+        CALCULATE ( [Total Sales],
+            DATESINPERIOD ( DIM_DATE[FULL_DATE], MAX ( DIM_DATE[FULL_DATE] ), -3, MONTH ) )
+    MEASURE FACT_SALES[Sales MoM %] =
+        VAR Prior = CALCULATE ( [Total Sales], DATEADD ( DIM_DATE[FULL_DATE], -1, MONTH ) )
+        RETURN DIVIDE ( [Total Sales] - Prior, Prior )
+
+    // ---------- 3. PROFITABILITY / RISK ----------
+    MEASURE FACT_SALES[Loss-Making Line Items] =
+        CALCULATE ( COUNTROWS ( FACT_SALES ), FACT_SALES[PROFIT] < 0 )
+    MEASURE FACT_SALES[% Loss-Making Items] =
+        DIVIDE ( [Loss-Making Line Items], COUNTROWS ( FACT_SALES ) )
+    MEASURE FACT_SALES[Loss Amount] =
+        CALCULATE ( ABS ( SUM ( FACT_SALES[PROFIT] ) ), FACT_SALES[PROFIT] < 0 )
+    MEASURE FACT_SALES[Avg Discount] = AVERAGE ( FACT_SALES[DISCOUNT] )
+    MEASURE FACT_SALES[Margin at Zero Discount] =
+        CALCULATE ( [Profit Margin %], FACT_SALES[DISCOUNT] = 0 )
+    MEASURE FACT_SALES[Margin Lost to Discounting] =
+        [Margin at Zero Discount] - [Profit Margin %]
+    MEASURE FACT_SALES[Profit per Unit] = DIVIDE ( [Total Profit], [Units Sold] )
+
+    // ---------- 4. RANKING / CONCENTRATION ----------
+    MEASURE FACT_SALES[Product Sales Rank] =
+        RANKX ( ALLSELECTED ( DIM_PRODUCT[SUB_CATEGORY] ), [Total Sales], , DESC, DENSE )
+    MEASURE FACT_SALES[Customer Sales Rank] =
+        RANKX ( ALLSELECTED ( DIM_CUSTOMER[CUSTOMER_NAME] ), [Total Sales], , DESC, DENSE )
+    MEASURE FACT_SALES[% of Total Sales] =
+        DIVIDE ( [Total Sales], CALCULATE ( [Total Sales], ALLSELECTED () ) )
+    MEASURE FACT_SALES[Top 20 Customer Revenue %] =
+        VAR Top20 = TOPN ( 20, ALLSELECTED ( DIM_CUSTOMER[CUSTOMER_NAME] ), [Total Sales], DESC )
+        RETURN DIVIDE (
+            CALCULATE ( [Total Sales], KEEPFILTERS ( Top20 ) ),
+            CALCULATE ( [Total Sales], ALLSELECTED () ) )
+
+    // ---------- 5. OPERATIONS / SLA ----------
+    MEASURE FACT_SALES[Avg Ship Days] = AVERAGE ( FACT_SALES[SHIP_DAYS] )
+    MEASURE FACT_SALES[Shipments Over 5 Days] =
+        CALCULATE ( COUNTROWS ( FACT_SALES ), FACT_SALES[SHIP_DAYS] > 5 )
+    MEASURE FACT_SALES[% Shipments Over 5 Days] =
+        DIVIDE ( [Shipments Over 5 Days], COUNTROWS ( FACT_SALES ) )
+
+    // ---------- 6. SHIP-DATE VIEW via the inactive relationship ----------
+    MEASURE FACT_SALES[Sales by Ship Date] =
+        CALCULATE ( [Total Sales],
+            USERELATIONSHIP ( FACT_SALES[SHIP_DATE_KEY], DIM_DATE[DATE_KEY] ) )
+
+// sanity check - these should match the database exactly:
+// Total Sales 2,297,200.86 | Total Profit 286,397.02 | Margin 12.47%
+// Loss-Making Line Items 1,871 | Total Orders 5,009
+EVALUATE
+    ROW (
+        "Total Sales",  [Total Sales],
+        "Total Profit", [Total Profit],
+        "Margin %",     [Profit Margin %],
+        "Orders",       [Total Orders],
+        "Loss Items",   [Loss-Making Line Items],
+        "Avg Ship Days",[Avg Ship Days]
+    )
