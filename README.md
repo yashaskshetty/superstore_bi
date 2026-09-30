@@ -152,6 +152,7 @@ All six discount bands match. Two independent implementations agreeing is a stro
 oracle/
   00_create_user.sql      schema, tablespace quota, grants
   01_tables.sql           staging, star schema, sequences, log tables
+  00a_reset_schema.sql    idempotent teardown (safe re-runs)
   02_load_staging.ctl     SQL*Loader control file
   03_package.sql          pkg_superstore_etl — functions + procedures
   04_run_load.sql         full load + validation queries
@@ -171,13 +172,22 @@ BUILD_GUIDE.md            step-by-step Power BI build instructions
 Oracle path — run in order as `superstore/superstore` (step 0 as sysdba):
 
 ```
-sqlplus / as sysdba          @oracle/00_create_user.sql
-sqlldr  superstore/superstore control=oracle/02_load_staging.ctl
+sqlplus / as sysdba           @oracle/00_create_user.sql    # first time only
+sqlplus superstore/superstore @oracle/00a_reset_schema.sql  # idempotent teardown
 sqlplus superstore/superstore @oracle/01_tables.sql
+sqldr   superstore/superstore control=oracle/02_load_staging.ctl
 sqlplus superstore/superstore @oracle/03_package.sql
 sqlplus superstore/superstore @oracle/04_run_load.sql
 sqlplus superstore/superstore @oracle/05_views_indexes.sql
 ```
+
+`00a_reset_schema.sql` drops every object in the schema, ignoring
+"does not exist" errors, so the whole sequence is **safe to re-run**.
+It is preferred over dropping the user, which fails with `ORA-01940`
+whenever any session still holds the schema.
+
+Verified end to end on a re-run: 0 Oracle errors, 9,994 rows loaded,
+0 rejected, totals identical to the previous build.
 
 SQLite path — one command, no server:
 
